@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-*
+
 
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
@@ -13,11 +13,15 @@
 <body>
   <section class="form-register">
     <h4>Formulario Registro</h4>
-    <input class="controls" type="text" name="name" id="name" placeholder="Nombre">
-    <input class="controls" type="email" name="Email" id="correo" placeholder="Correo">
+		<form name="contact" method="POST" data-netlify="true">
+    <input type="text" name="name" class="controls" id="name" placeholder="Nombre">
+    <input type="email" name="email" class="controls" id="correo" placeholder="Correo">
     <input class="controlsp"<textarea name="message"></textarea id="" placeholder="Mensaje">
-    <input class="botons" type="submit" value="Registrar">
+			<p>
+	    <button type="submit">Send</button>
+	  </p>
   </section>
     </form>
     </body>
     </html>
+
